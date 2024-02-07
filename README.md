@@ -1,8 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+Apollo Server + GraphQL
 ## Getting Started
 
-First, run the development server:
+First, run the development server apollo:
 
 ```bash
 npm run dev
@@ -10,11 +9,21 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:4000](http://localhost:4000) with your browser to see the result.
+
+
+## GraphQL codegen
+Use command `pnpm codegen`, then in folder create `src/graphql` with files `.generated.ts`
+
+```
+/* Implement Query.product resolver logic here */
+```
+Here we will write the code for our product return function.
+
+
+
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
